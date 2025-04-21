@@ -1,0 +1,138 @@
+(footprint "RP2040-Zero_2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 10.16 -15.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c9fdea7-ba0c-45cc-8f66-240980c37d5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RP2040-Zero"
+		(at 10.16 -13.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c58960d9-4cac-4036-ad2e-1aef26946dae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "356d617d-2907-47ba-8b0e-e54b2be667ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "345f5ed2-2389-4713-864a-21f284e55dc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.16 -24.45)
+		(end 1.16 -0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a1dbf7b-46ab-4381-b591-554d2769ad07")
+	)
+	(fp_line
+		(start 1.16 -0.95)
+		(end 19.16 -0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89d0c3a9-2f98-451a-8c17-8db5c563d887")
+	)
+	(fp_line
+		(start 19.16 -24.45)
+		(end 1.16 -24.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3746518e-ec8f-4326-9e80-93b618a3f818")
+	)
+	(fp_line
+		(start 19.16 -0.95)
+		(end 19.16 -24.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7678225-9962-4b6c-8ac6-79810f77c6a5")
+	)
+	(fp_line
+		(start 1.16 -24.45)
+		(end 19.16 -24.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04b002c5-b0ed-45ea-8acf-6f312ef24433")
+	)
+	(fp_line
+		(start 1.16 -0.95)
+		(end 1.16 -24.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bde8ecb6-8f54-4c81-a756-d3f5f8297c6e")
+	)
+	(fp_line
+		(start 19.16 -24.45)
+		(end 19.16 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4957628a-0487-4b2e-9e46-2b76a5391512")
+	)
+	(fp_line
+		(start 19.16 -0.95)
+		(end 1.16 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5697aad3-3e4a-490a-b02f-474ea55f0389")
+	)
+	(embedded_fonts no)
+)
